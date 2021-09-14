@@ -1,0 +1,10 @@
+.successform-container{
+    width: 320px;
+    height: 390px;
+}
+.bg-color{
+    background-color: #8BC34A;
+}
+.btn-hover:hover{
+    background-color: #91d83f;
+}

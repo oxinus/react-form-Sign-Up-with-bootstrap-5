@@ -1,0 +1,11 @@
+.fa-check-circle {
+    right: 20px;
+    top: 60%;
+}
+.fa-exclamation-circle{
+    right: 20px;
+    margin-top: -26px;
+}
+.app-container{
+    width: 500px;
+}
