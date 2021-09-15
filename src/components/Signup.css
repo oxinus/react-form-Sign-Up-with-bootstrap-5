@@ -9,3 +9,9 @@
 .app-container{
     width: 500px;
 }
+
+@media (max-width:520px){
+    .app-container{
+        width: 90vw;
+    }
+}

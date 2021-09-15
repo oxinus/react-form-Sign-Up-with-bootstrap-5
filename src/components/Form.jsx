@@ -88,14 +88,14 @@ const Form = () => {
     }
 
     return (
-        <div className='container'>
+        <>
             
             {/* if user validation be true the successform will be shown else the signupform will be shown again */}
             {isValidated ? <SuccessForm /> : <SignUP submitHandler={submitHandler} 
             changeHandler={changeHandler} errors={errors} isSubmitted={isSubmitted} />}
             {/* --------------------------------------------------- */}
-            
-        </div>
+
+        </>
     )
 }
 
